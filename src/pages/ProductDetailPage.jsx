@@ -104,7 +104,7 @@ function ProductDetailPage() {
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-md mx-auto text-center">
           <h2 className="text-2xl font-bold text-gray-700 mb-4">Product Not Found</h2>
-          <p className="text-gray-500 mb-8">The product you're looking for doesn't exist or has been removed.</p>
+          <p className="text-gray-500 mb-8">The product you&apos;re looking for doesn&apos;t exist or has been removed.</p>
           <button
             onClick={() => navigate('/products')}
             className="btn btn-primary px-6"

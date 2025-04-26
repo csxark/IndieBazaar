@@ -1,4 +1,5 @@
 import { createContext, useContext, useState, useEffect } from 'react'
+import PropTypes from 'prop-types'
 
 const AuthContext = createContext()
 
@@ -42,7 +43,7 @@ export function AuthProvider({ children }) {
     )
     
     if (user) {
-      const { password: _, ...userWithoutPassword } = user
+      const { password, ...userWithoutPassword } = user
       setCurrentUser(userWithoutPassword)
       localStorage.setItem('indieBazaarUser', JSON.stringify(userWithoutPassword))
       return true
@@ -68,10 +69,11 @@ export function AuthProvider({ children }) {
       id: DEMO_USERS.length + 1,
       name,
       email,
+      password,
       avatar: `https://ui-avatars.com/api/?name=${name.replace(' ', '+')}&background=C75146&color=fff`
     }
     
-    const { password: _, ...userWithoutPassword } = newUser
+    const { password1, ...userWithoutPassword } = newUser
     setCurrentUser(userWithoutPassword)
     localStorage.setItem('indieBazaarUser', JSON.stringify(userWithoutPassword))
     return true
@@ -94,7 +96,10 @@ export function AuthProvider({ children }) {
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }
-
 export function useAuth() {
   return useContext(AuthContext)
+}
+
+AuthProvider.propTypes = {
+  children: PropTypes.node.isRequired
 }

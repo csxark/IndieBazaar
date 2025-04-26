@@ -4,6 +4,20 @@ import { motion } from 'framer-motion'
 import { FiHeart, FiShoppingBag } from 'react-icons/fi'
 import { useCart } from '../../context/CartContext'
 
+import PropTypes from 'prop-types'
+
+ProductCard.propTypes = {
+  product: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    brand: PropTypes.string,
+    originalPrice: PropTypes.number,
+    tags: PropTypes.arrayOf(PropTypes.string)
+  }).isRequired
+}
+
 function ProductCard({ product }) {
   const [isHovered, setIsHovered] = useState(false)
   const [isFavorite, setIsFavorite] = useState(false)
@@ -97,6 +111,7 @@ function ProductCard({ product }) {
       </Link>
     </motion.div>
   )
-}
 
+}
 export default ProductCard
+

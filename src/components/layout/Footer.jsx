@@ -16,7 +16,7 @@ function Footer() {
               </span>
             </Link>
             <p className="text-gray-600 mb-6 text-sm leading-relaxed">
-              Your marketplace for sustainable, ethically produced fashion from India's finest indie brands. 
+              Your marketplace for sustainable, ethically produced fashion from India&apos;s finest indie brands. 
               Celebrating craftsmanship and tradition.
             </p>
             <div className="flex space-x-4">

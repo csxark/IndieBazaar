@@ -59,7 +59,7 @@ function SustainablePractices() {
           </span>
           <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">Our Commitment to the Planet</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We believe fashion can be both beautiful and responsible. Here's how we're making a difference.
+            We believe fashion can be both beautiful and responsible. Here&apos;s how we&apos;re making a difference.
           </p>
         </motion.div>
 

@@ -3,7 +3,7 @@ import { useSearchParams } from 'react-router-dom'
 import { FiFilter, FiX, FiChevronDown } from 'react-icons/fi'
 import { motion, AnimatePresence } from 'framer-motion'
 import ProductCard from '../components/product/ProductCard'
-import { fetchProducts } from '../services/productService'
+import { fetchProducts, CATEGORIES } from '../services/productService'
 
 function ProductsPage() {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -29,20 +29,18 @@ function ProductsPage() {
     tags: searchParams.get('tag') ? [searchParams.get('tag')] : []
   })
 
-  // Categories
-  const categories = [
-    { id: 'all', name: 'All Products' },
-    { id: 'clothing', name: 'Clothing' },
-    { id: 'accessories', name: 'Accessories' },
-    { id: 'home', name: 'Home Decor' }
-  ]
+  // Categories - Import from productService instead of hardcoding
   
-  // Tags
+  // Tags - Updated to match actual tags in the products data
   const tags = [
     { id: 'sustainable', name: 'Sustainable' },
     { id: 'handcrafted', name: 'Handcrafted' },
     { id: 'new', name: 'New Arrivals' },
-    { id: 'best-seller', name: 'Best Sellers' }
+    { id: 'best-seller', name: 'Best Sellers' },
+    { id: 'block-printed', name: 'Block Printed' },
+    { id: 'natural-dye', name: 'Natural Dye' },
+    { id: 'handloom', name: 'Handloom' },
+    { id: 'organic-cotton', name: 'Organic Cotton' }
   ]
   
   // Sort options
@@ -221,12 +219,24 @@ function ProductsPage() {
               <div>
                 <h3 className="text-lg font-bold mb-3">Categories</h3>
                 <div className="space-y-2">
-                  {categories.map(category => (
+                  <button
+                    key="all"
+                    onClick={() => handleCategoryChange('all')}
+                    className={`block w-full text-left px-3 py-2 rounded-lg transition ${
+                      !filters.category
+                        ? 'bg-primary-50 text-primary-700 font-medium'
+                        : 'text-gray-700 hover:bg-gray-50'
+                    }`}
+                  >
+                    All Products
+                  </button>
+                  
+                  {CATEGORIES.map(category => (
                     <button
                       key={category.id}
                       onClick={() => handleCategoryChange(category.id)}
                       className={`block w-full text-left px-3 py-2 rounded-lg transition ${
-                        (category.id === 'all' && !filters.category) || filters.category === category.id
+                        filters.category === category.id
                           ? 'bg-primary-50 text-primary-700 font-medium'
                           : 'text-gray-700 hover:bg-gray-50'
                       }`}
@@ -389,15 +399,30 @@ function ProductsPage() {
                   <div>
                     <h3 className="text-lg font-bold mb-3">Categories</h3>
                     <div className="space-y-2">
-                      {categories.map(category => (
+                      <button
+                        key="all-mobile"
+                        onClick={() => {
+                          handleCategoryChange('all')
+                          setMobileFiltersOpen(false)
+                        }}
+                        className={`block w-full text-left px-3 py-2 rounded-lg transition ${
+                          !filters.category
+                            ? 'bg-primary-50 text-primary-700 font-medium'
+                            : 'text-gray-700 hover:bg-gray-50'
+                        }`}
+                      >
+                        All Products
+                      </button>
+                      
+                      {CATEGORIES.map(category => (
                         <button
-                          key={category.id}
+                          key={`mobile-${category.id}`}
                           onClick={() => {
                             handleCategoryChange(category.id)
                             setMobileFiltersOpen(false)
                           }}
                           className={`block w-full text-left px-3 py-2 rounded-lg transition ${
-                            (category.id === 'all' && !filters.category) || filters.category === category.id
+                            filters.category === category.id
                               ? 'bg-primary-50 text-primary-700 font-medium'
                               : 'text-gray-700 hover:bg-gray-50'
                           }`}
@@ -414,7 +439,7 @@ function ProductsPage() {
                     <div className="space-y-2">
                       {tags.map(tag => (
                         <label
-                          key={tag.id}
+                          key={`mobile-${tag.id}`}
                           className="flex items-center space-x-2"
                         >
                           <input

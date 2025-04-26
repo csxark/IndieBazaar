@@ -15,7 +15,7 @@ function Hero() {
               Ethically Made • Sustainable • 100% Indian
             </span>
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Discover India's Finest <span className="text-primary-500">Artisanal</span> Fashion
+              Discover India&apos;s Finest <span className="text-primary-500">Artisanal</span> Fashion
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-lg">
               Handcrafted pieces from independent Indian designers who prioritize sustainability, ethical practices, and traditional craftsmanship.
@@ -72,7 +72,7 @@ function Hero() {
         </div>
       </div>
       
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.7 }}
@@ -92,7 +92,7 @@ function Hero() {
             </div>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */} 
     </section>
   )
 }

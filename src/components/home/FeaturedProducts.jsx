@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom'
+
 import { motion } from 'framer-motion'
 import ProductCard from '../product/ProductCard'
-import { useEffect, useState } from 'react'
+import PropTypes from 'prop-types'
+
 
 function FeaturedProducts({ products, loading }) {
   if (loading) {
@@ -36,5 +37,10 @@ function FeaturedProducts({ products, loading }) {
     </div>
   )
 }
+FeaturedProducts.propTypes = {
+  products: PropTypes.array.isRequired,
+  loading: PropTypes.bool.isRequired
+}
 
 export default FeaturedProducts
+// export default FeaturedProducts

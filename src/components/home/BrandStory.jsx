@@ -16,10 +16,10 @@ function BrandStory() {
               Our Story
             </span>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Celebrating India's Rich <span className="text-primary-500">Artisanal Heritage</span>
+              Celebrating India&apos;s Rich <span className="text-primary-500">Artisanal Heritage</span>
             </h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              At IndieBazaar, we're dedicated to preserving and promoting the rich artisanal heritage of India by connecting conscious consumers directly with talented indie designers and craftspeople.
+              At IndieBazaar, we&apos;re dedicated to preserving and promoting the rich artisanal heritage of India by connecting conscious consumers directly with talented indie designers and craftspeople.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
               Every product tells a story - of ancient techniques passed down through generations, of sustainable practices that honor both tradition and our planet, and of artisans who pour their heart and soul into each creation.

@@ -47,7 +47,7 @@ function Newsletter() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <h3 className="text-xl font-bold mb-2">Thank You for Subscribing!</h3>
-                <p>You're now part of our community. We'll keep you updated with the latest from IndieBazaar.</p>
+                <p> You&apos;re now part of our community. We&apos;ll keep you updated with the latest from IndieBazaar.</p>
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit} className="max-w-md mx-auto">
