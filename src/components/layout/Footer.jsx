@@ -16,7 +16,7 @@ function Footer() {
               </span>
             </Link>
             <p className="text-gray-600 mb-6 text-sm leading-relaxed">
-              Your marketplace for sustainable, ethically produced fashion from India&apos;s finest indie brands. 
+              Your marketplace for sustainable, ethically produced fashion from India&apos;s finest indie brands.
               Celebrating craftsmanship and tradition.
             </p>
             <div className="flex space-x-4">
@@ -37,21 +37,26 @@ function Footer() {
             <h3 className="text-base font-semibold mb-4">Shop</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/products?category=clothing" className="text-gray-600 hover:text-primary-500 transition-colors text-sm">
-                  Clothing
+                <Link to="/products?category=artisan-sarees" className="text-gray-600 hover:text-primary-500 transition-colors text-sm">
+                  Artisan Sarees
                 </Link>
               </li>
               <li>
-                <Link to="/products?category=accessories" className="text-gray-600 hover:text-primary-500 transition-colors text-sm">
-                  Accessories
+                <Link to="/products?category=khadi-wear" className="text-gray-600 hover:text-primary-500 transition-colors text-sm">
+                  Khadi Wear
                 </Link>
               </li>
               <li>
-                <Link to="/products?category=home" className="text-gray-600 hover:text-primary-500 transition-colors text-sm">
-                  Home Decor
+                <Link to="/products?category=block-printed-apparel" className="text-gray-600 hover:text-primary-500 transition-colors text-sm">
+                  Block-Printed Apparel
                 </Link>
               </li>
               <li>
+                <Link to="/products?category=embroidered-ethnicwear" className="text-gray-600 hover:text-primary-500 transition-colors text-sm">
+                  Embroidered Ethnicwear
+                </Link>
+              </li>
+              <li> 
                 <Link to="/products?tag=new" className="text-gray-600 hover:text-primary-500 transition-colors text-sm">
                   New Arrivals
                 </Link>
@@ -112,8 +117,8 @@ function Footer() {
             <div className="mt-6">
               <h4 className="text-sm font-medium mb-2">Subscribe to our newsletter</h4>
               <form className="flex">
-                <input 
-                  type="email" 
+                <input
+                  type="email"
                   placeholder="Your email"
                   className="px-3 py-2 text-sm bg-white border border-gray-300 rounded-l-md focus:outline-none focus:ring-1 focus:ring-primary-500 w-full"
                 />

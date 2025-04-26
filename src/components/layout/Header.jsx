@@ -178,7 +178,7 @@ function Header() {
               >
                 Our Story
               </NavLink>
-              <NavLink 
+              {/* <NavLink 
                 to="/sustainable" 
                 className={({ isActive }) => 
                   `py-2 text-base font-medium ${isActive ? 'text-primary-500' : 'text-gray-700'}`
@@ -186,7 +186,7 @@ function Header() {
                 onClick={() => setIsOpen(false)}
               >
                 Sustainability
-              </NavLink>
+              </NavLink> */} 
             </div>
           </motion.div>
         )}
