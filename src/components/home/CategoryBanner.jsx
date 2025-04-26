@@ -7,21 +7,21 @@ function CategoryBanner() {
       id: 1,
       name: 'Artisan Sarees',
       description: 'Handwoven masterpieces from India\'s finest weavers',
-      image: 'https://images.pexels.com/photos/12453302/pexels-photo-12453302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      image: 'https://brijbari.com/cdn/shop/files/photo-output2.heic?v=1692810972&width=1946',
       slug: 'artisan-sarees',
     },
     {
       id: 2,
       name: 'Block-Printed Apparel',
       description: 'Traditional prints using natural dyes',
-      image: 'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      image: 'https://5.imimg.com/data5/SELLER/Default/2022/10/IL/AT/MM/7244428/block-print-cotton-shirts-500x500.jpg',
       slug: 'block-printed-apparel',
     },
     {
       id: 3,
       name: 'Khadi Wear',
       description: 'Handspun, handwoven sustainable fashion',
-      image: 'https://images.pexels.com/photos/5865223/pexels-photo-5865223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      image: 'https://www.shasakclothing.com/cdn/shop/files/DSC05391.jpg?v=1728290520&width=533',
       slug: 'khadi-wear',
     }
   ]

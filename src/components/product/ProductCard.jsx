@@ -8,7 +8,7 @@ import PropTypes from 'prop-types'
 
 ProductCard.propTypes = {
   product: PropTypes.shape({
-    id: PropTypes.string.isRequired,
+    id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
     image: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
@@ -111,7 +111,6 @@ function ProductCard({ product }) {
       </Link>
     </motion.div>
   )
-
 }
-export default ProductCard
 
+export default ProductCard

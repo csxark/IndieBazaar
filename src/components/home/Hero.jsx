@@ -44,7 +44,7 @@ function Hero() {
           >
             <div className="aspect-w-4 aspect-h-5 rounded-2xl overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/12677287/pexels-photo-12677287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src=" https://media.istockphoto.com/id/483232645/photo/african-fabrics-from-ghana-west-africa.jpg?s=612x612&w=0&k=20&c=mTjDHhoKKbQ1r2RvujFLHNM9MZssIZMja5SLMI9MuCE="
                 alt="Model wearing handcrafted Indian fashion"
                 className="w-full h-full object-cover"
               />

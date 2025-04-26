@@ -24,7 +24,7 @@ function BrandStory() {
             <p className="text-gray-600 mb-8 leading-relaxed">
               Every product tells a story - of ancient techniques passed down through generations, of sustainable practices that honor both tradition and our planet, and of artisans who pour their heart and soul into each creation.
             </p>
-            <div className="flex flex-wrap gap-4 items-center">
+            {/* <div className="flex flex-wrap gap-4 items-center">
               <div className="flex -space-x-2">
                 <img 
                   src="https://images.pexels.com/photos/8141577/pexels-photo-8141577.jpeg?auto=compress&cs=tinysrgb&w=120" 
@@ -43,10 +43,10 @@ function BrandStory() {
                 />
               </div>
               <p className="text-sm text-gray-600">Supporting over 100+ artisans across India</p>
-            </div>
+            </div> */}
           </motion.div>
           
-          <motion.div
+           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
@@ -57,14 +57,14 @@ function BrandStory() {
               <div className="space-y-4">
                 <div className="rounded-lg overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/1561011/pexels-photo-1561011.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="https://media.istockphoto.com/id/582273084/photo/man-working-with-leather.jpg?s=612x612&w=0&k=20&c=qp0rpPDeGNH0VC8dZxAjrb5XOQOtJdYoXu7gtGxFTn4="
                     alt="Artisan handcrafting a piece"
                     className="w-full h-auto"
                   />
                 </div>
                 <div className="rounded-lg overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/6045020/pexels-photo-6045020.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="https://assets.aboutamazon.com/dims4/default/da02c6b/2147483647/strip/true/crop/624x351+0+32/resize/1240x698!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F62%2F3f%2F3ac4f07940999e678f6ad0fbb617%2Fimage1.png"
                     alt="Weaving process"
                     className="w-full h-auto"
                   />
@@ -73,14 +73,14 @@ function BrandStory() {
               <div className="mt-8">
                 <div className="rounded-lg overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/7789882/pexels-photo-7789882.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="https://i.pinimg.com/736x/24/40/8d/24408d98b030d1cec9cc79b110edda74.jpg"
                     alt="Finished handcrafted product"
                     className="w-full h-auto"
                   />
                 </div>
               </div>
             </div>
-          </motion.div>
+          </motion.div> 
         </div>
       </div>
     </section>

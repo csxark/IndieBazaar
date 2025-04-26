@@ -1,15 +1,15 @@
 const PRODUCTS = [
   {
     id: 1,
-    name: "Handwoven Banarasi Silk Saree",
+    name: "weaver’s tale Women’s handwoven Banarasi silk saree with blouse piece (orange)",
     price: 15800,
     originalPrice: 18000,
-    description: "Exquisite handwoven Banarasi silk saree featuring intricate zari work and traditional motifs. Created by master weavers in Varanasi.",
-    brand: "Varanasi Heritage",
-    image: "https://images.pexels.com/photos/12453302/pexels-photo-12453302.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "Elegant handwoven Banarasi silk saree featuring intricate zari work and traditional craftsmanship from Varanasi.",
+    brand: "Weaver's Tale",
+    image: "https://weaverstory.com/cdn/shop/products/SRN12360-1.jpg?v=1723764970",
     images: [
-      "https://images.pexels.com/photos/12453302/pexels-photo-12453302.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/12453306/pexels-photo-12453306.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://5.imimg.com/data5/OV/HC/MY-32121134/hand-woven-tanchoi-banarasi-silk-saree-1000x1000.jpg",
+      "https://5.imimg.com/data5/OV/HC/MY-32121134/hand-woven-tanchoi-banarasi-silk-saree-1000x1000.jpg"
     ],
     tags: ["handcrafted", "sustainable", "artisan-sarees"],
     category: "artisan-sarees",
@@ -17,14 +17,14 @@ const PRODUCTS = [
   },
   {
     id: 2,
-    name: "Khadi Cotton Kurta Set",
+    name: "Cotton Khaadi Embroidery Straight Kurta Set with Pants & Khadi Silk Dupatta (3-Piece) by H4U",
     price: 3200,
-    description: "Handspun and handwoven khadi cotton kurta set. Represents the essence of sustainable Indian fashion.",
-    brand: "Khadi Gram",
-    image: "https://images.pexels.com/photos/5865223/pexels-photo-5865223.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "Authentic handspun khadi cotton kurta set paired with a khadi silk dupatta, showcasing the spirit of sustainable Indian fashion.",
+    brand: "H4U",
+    image: "https://c.media-amazon.com/images/I/51WhH31j6BL.jpg",
     images: [
-      "https://images.pexels.com/photos/5865223/pexels-photo-5865223.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/5865236/pexels-photo-5865236.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://c.media-amazon.com/images/I/51WhH31j6BL.jpg",
+      "https://c.media-amazon.com/images/I/51WhH31j6BL.jpg"
     ],
     tags: ["handcrafted", "khadi-wear", "sustainable"],
     category: "khadi-wear",
@@ -32,15 +32,15 @@ const PRODUCTS = [
   },
   {
     id: 3,
-    name: "Bagru Block Print Cotton Dress",
+    name: "Bagru Jaipuri Hand Block Print Cotton Dress (Yellow)",
     price: 2800,
     originalPrice: 3200,
-    description: "Hand block-printed cotton dress featuring traditional Bagru prints from Rajasthan. Made with natural dyes.",
+    description: "Vibrant yellow hand block-printed cotton dress using traditional Bagru techniques and natural dyes from Rajasthan.",
     brand: "Bagru Artisans",
-    image: "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://5.imimg.com/data5/ANDROID/Default/2023/6/320821174/AQ/WC/IP/126497530/product-jpeg-1000x1000.jpg",
     images: [
-      "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/7679725/pexels-photo-7679725.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://5.imimg.com/data5/ANDROID/Default/2023/6/320821460/QU/UT/KR/126497530/product-jpeg-1000x1000.jpg",
+      "https://5.imimg.com/data5/ANDROID/Default/2023/6/320821461/ZA/YY/GX/126497530/product-jpeg-1000x1000.jpg"
     ],
     tags: ["block-printed", "sustainable", "natural-dye"],
     category: "block-printed-apparel",
@@ -48,14 +48,14 @@ const PRODUCTS = [
   },
   {
     id: 4,
-    name: "Organic Cotton Handloom Shirt",
+    name: "Inkriti Kala Cotton Sunshine Handwoven T-Shirt (100% organic handloom)",
     price: 2200,
-    description: "Handwoven organic cotton shirt made with sustainably grown cotton from Gujarat.",
-    brand: "Organic Handloom",
-    image: "https://images.pexels.com/photos/6626903/pexels-photo-6626903.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "Breathable handwoven organic cotton t-shirt made from Kala cotton, perfect for conscious fashion lovers.",
+    brand: "Inkriti",
+    image: "https://ciceroni.in/cdn/shop/files/kala-cotton-bw-checks-everywhere-shirtinkritimen-shirtsciceroni-905238.jpg?crop=region&crop_height=2037&crop_left=0&crop_top=5&crop_width=1365&v=1734605824&width=1365",
     images: [
-      "https://images.pexels.com/photos/6626903/pexels-photo-6626903.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/6626967/pexels-photo-6626967.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://ciceroni.in/cdn/shop/files/kala-cotton-bw-checks-everywhere-shirtinkritimen-shirtsciceroni-905238.jpg?crop=region&crop_height=2037&crop_left=0&crop_top=5&crop_width=1365&v=1734605824&width=1365",
+      "https://ciceroni.in/cdn/shop/files/kala-cotton-bw-checks-everywhere-shirtinkritimen-shirtsciceroni-905238.jpg?crop=region&crop_height=2037&crop_left=0&crop_top=5&crop_width=1365&v=1734605824&width=1365"
     ],
     tags: ["organic-cotton", "handloom", "sustainable"],
     category: "organic-cotton-clothing",
@@ -63,112 +63,99 @@ const PRODUCTS = [
   },
   {
     id: 5,
-    name: "Upcycled Denim Jacket",
-    price: 3800,
-    description: "Unique denim jacket created from upcycled materials, featuring traditional embroidery.",
-    brand: "Reimagine Fashion",
-    image: "https://images.pexels.com/photos/7679633/pexels-photo-7679633.jpeg?auto=compress&cs=tinysrgb&w=600",
-    images: [
-      "https://images.pexels.com/photos/7679633/pexels-photo-7679633.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/7679634/pexels-photo-7679634.jpeg?auto=compress&cs=tinysrgb&w=600"
-    ],
-    tags: ["upcycled", "sustainable", "new"],
-    category: "upcycled-fashion",
-    inStock: true
-  },
-  {
-    id: 6,
-    name: "Lucknowi Chikankari Kurta",
+    name: "Ada Hand Embroidered Lucknowi Chikankari Kota Cotton Kurta with Trouser Kurta Set for Women",
     price: 4500,
     originalPrice: 5000,
-    description: "Delicate hand-embroidered chikankari kurta from Lucknow's master artisans.",
-    brand: "Lucknow Heritage",
-    image: "https://images.pexels.com/photos/7679685/pexels-photo-7679685.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "Delicate hand-embroidered chikankari kurta set made with fine Kota cotton, crafted by Ada artisans from Lucknow.",
+    brand: "Ada",
+    image: "https://c.media-amazon.com/images/I/61j1BoXBI+L.jpg",
     images: [
-      "https://images.pexels.com/photos/7679685/pexels-photo-7679685.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/7679686/pexels-photo-7679686.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://c.media-amazon.com/images/I/61j1BoXBI+L.jpg",
+      "https://c.media-amazon.com/images/I/61j1BoXBI+L.jpg"
     ],
-    tags: ["embroidered", "handcrafted"],
+    tags: ["embroidered", "handcrafted", "best-seller"],
     category: "embroidered-ethnicwear",
     inStock: true
   },
   {
-    id: 7,
-    name: "Bandhani Silk Dupatta",
+    id: 6,
+    name: "AKSHADEEP Bandhani and Patola Print Dupatta – Traditional Art Silk Dupattas for Women",
     price: 2800,
-    description: "Traditional Bandhani tie-dye silk dupatta from Gujarat's expert artisans.",
-    brand: "Kutch Bandhani",
-    image: "https://images.pexels.com/photos/7679740/pexels-photo-7679740.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "Vibrant bandhani and patola print dupatta crafted with traditional tie-dye methods on rich art silk fabric.",
+    brand: "Akshadeep",
+    image: "https://m.media-amazon.com/images/I/81qPhmP7HhL._AC_UY350_.jpg",
     images: [
-      "https://images.pexels.com/photos/7679740/pexels-photo-7679740.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/7679741/pexels-photo-7679741.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://m.media-amazon.com/images/I/81qPhmP7HhL._AC_UY350_.jpg",
+      "https://m.media-amazon.com/images/I/81qPhmP7HhL._AC_UY350_.jpg"
     ],
-    tags: ["bandhani", "handcrafted"],
+    tags: ["bandhani", "handcrafted", "best-seller"],
     category: "ajrakh-bandhani",
     inStock: true
   },
   {
-    id: 8,
-    name: "Handknit Kullu Shawl",
+    id: 7,
+    name: "SilkyKraftz Pure Wool Fancy Multi-Color Hand Knit Shawl for Girls and Women",
     price: 4200,
     originalPrice: 4800,
-    description: "Warm handknitted wool shawl with traditional Kullu patterns from Himachal Pradesh.",
-    brand: "Himalayan Handknits",
-    image: "https://images.pexels.com/photos/7679750/pexels-photo-7679750.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "Beautifully hand-knitted pure wool shawl featuring colorful traditional Kullu patterns, perfect for winter.",
+    brand: "SilkyKraftz",
+    image: "https://images-eu.ssl-images-amazon.com/images/I/71aNtNlJebL._AC_SR462,693_.jpg",
     images: [
-      "https://images.pexels.com/photos/7679750/pexels-photo-7679750.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/7679751/pexels-photo-7679751.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://images-eu.ssl-images-amazon.com/images/I/71aNtNlJebL._AC_SR462,693_.jpg",
+      "https://images-eu.ssl-images-amazon.com/images/I/71aNtNlJebL._AC_SR462,693_.jpg"
     ],
-    tags: ["handmade-woolen", "sustainable"],
+    tags: ["handmade-woolen", "sustainable", "new"],
     category: "handmade-woolen-wear",
     inStock: true
   },
   {
-    id: 9,
-    name: "Natural Indigo Dyed Dress",
+    id: 8,
+    name: "Ananda House of Natural Dyes Handmade Indigo Shibori Dress",
     price: 3600,
-    description: "Cotton dress dyed with natural indigo using traditional dyeing techniques.",
-    brand: "Natural Dye Studio",
-    image: "https://images.pexels.com/photos/7679760/pexels-photo-7679760.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "Handcrafted cotton dress dyed with natural indigo using ancient Shibori dyeing techniques.",
+    brand: "Ananda House of Natural Dyes",
+    image: "https://m.media-amazon.com/images/I/61pVYZivJLL._QL85_AC_.jpg",
     images: [
-      "https://images.pexels.com/photos/7679760/pexels-photo-7679760.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/7679761/pexels-photo-7679761.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://m.media-amazon.com/images/I/61pVYZivJLL._QL85_AC_.jpg",
+      "https://m.media-amazon.com/images/I/61pVYZivJLL._QL85_AC_.jpg"
     ],
     tags: ["natural-dye", "sustainable", "new"],
     category: "natural-dye-apparel",
     inStock: true
   },
   {
-    id: 10,
-    name: "Chanderi Silk Kurta Set",
+    id: 9,
+    name: "Women’s Chanderi Silk Embroidered Kurta with Pant & Organza Dupatta Set",
     price: 6500,
     originalPrice: 7200,
-    description: "Elegant Chanderi silk kurta set with traditional motifs, handwoven in Madhya Pradesh.",
+    description: "Luxurious Chanderi silk kurta set embroidered with traditional motifs, paired with a light organza dupatta.",
     brand: "Chanderi Traditions",
-    image: "https://images.pexels.com/photos/7679770/pexels-photo-7679770.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://www.jaipurkurti.com/cdn/shop/files/6_8d71306f-1ec6-4272-adf9-12e3bd451218.jpg?v=1736609809",
     images: [
-      "https://images.pexels.com/photos/7679770/pexels-photo-7679770.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/7679771/pexels-photo-7679771.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://www.jaipurkurti.com/cdn/shop/files/6_8d71306f-1ec6-4272-adf9-12e3bd451218.jpg?v=1736609809",
+      "https://www.jaipurkurti.com/cdn/shop/files/6_8d71306f-1ec6-4272-adf9-12e3bd451218.jpg?v=1736609809"
     ],
-    tags: ["handloom", "sustainable"],
+    tags: ["handloom", "sustainable", "best-seller"],
     category: "handloom-clothing",
     inStock: true
   }
 ];
 
+
 // Categories configuration
 export const CATEGORIES = [
-  { id: 'handloom-clothing', name: 'Handloom Clothing' },
+  { id: 'artisan-sarees', name: 'Artisan Sarees' },
   { id: 'khadi-wear', name: 'Khadi Wear' },
   { id: 'block-printed-apparel', name: 'Block-Printed Apparel' },
-  { id: 'organic-cotton-clothing', name: 'Organic Cotton Clothing' },
-  { id: 'upcycled-fashion', name: 'Upcycled Fashion' },
+  // { id: 'organic-cotton-clothing', name: 'Organic Cotton Clothing' },
+  // { id: 'upcycled-fashion', name: 'Upcycled Fashion' },
   { id: 'embroidered-ethnicwear', name: 'Embroidered Ethnicwear' },
   { id: 'ajrakh-bandhani', name: 'Ajrakh & Bandhani' },
-  { id: 'artisan-sarees', name: 'Artisan Sarees' },
   { id: 'handmade-woolen-wear', name: 'Handmade Woolen Wear' },
-  { id: 'natural-dye-apparel', name: 'Natural Dye Apparel' }
+  // { id: 'natural-dye-apparel', name: 'Natural Dye Apparel' },
+  { id: 'handloom-clothing', name: 'Handloom Clothing' }
 ];
+
 
 // Simulate API calls with delays
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -217,10 +204,20 @@ export const fetchProducts = async (filters = {}) => {
         filteredProducts.sort((a, b) => b.price - a.price);
         break;
       case 'newest':
-        filteredProducts = filteredProducts.filter(p => p.tags.includes('new'));
+        // Instead of filtering, prioritize products with the 'new' tag
+        filteredProducts.sort((a, b) => {
+          const aIsNew = a.tags.includes('new');
+          const bIsNew = b.tags.includes('new');
+          return bIsNew - aIsNew; // This sorts new items first
+        });
         break;
       case 'best-seller':
-        filteredProducts = filteredProducts.filter(p => p.tags.includes('best-seller'));
+        // Instead of filtering, prioritize products with the 'best-seller' tag
+        filteredProducts.sort((a, b) => {
+          const aIsBestSeller = a.tags.includes('best-seller');
+          const bIsBestSeller = b.tags.includes('best-seller');
+          return bIsBestSeller - aIsBestSeller; // This sorts best-sellers first
+        });
         break;
       default:
         break;
@@ -254,4 +251,4 @@ export const fetchFeaturedProducts = async () => {
   ).slice(0, 4);
   
   return featuredProducts;
-} 
+}

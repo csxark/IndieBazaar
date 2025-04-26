@@ -154,7 +154,7 @@ function ProductsPage() {
             Discover Artisanal Products
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Shop our curated collection of sustainably made, handcrafted products from India's finest independent artisans.
+            Shop our curated collection of sustainably made, handcrafted products from India&apos;s finest independent artisans.
           </p>
         </div>
         
@@ -326,7 +326,7 @@ function ProductsPage() {
                       <div className="h-6 bg-gray-200 rounded w-1/4 mt-2" />
                     </div>
                   </div>
-                ))}
+                ))} 
               </div>
             ) : (
               <>
@@ -349,7 +349,7 @@ function ProductsPage() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {products.map((product, index) => (
                       <motion.div
-                        key={product.id}
+                        key={product.id} 
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.4, delay: index * 0.1 }}

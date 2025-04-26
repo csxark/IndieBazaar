@@ -17,7 +17,7 @@ function AboutPage() {
                 Our Story
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                We're on a mission to preserve India's rich artisanal heritage by bridging the gap between talented craftspeople and conscious consumers worldwide.
+                We&apos;re on a mission to preserve India&apos;s rich artisanal heritage by bridging the gap between talented craftspeople and conscious consumers worldwide.
               </p>
             </motion.div>
           </div>
@@ -41,10 +41,10 @@ function AboutPage() {
                 Empowering Artisans Through Sustainable Fashion
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                At IndieBazaar, we believe that fashion should not come at the expense of people or the planet. We're committed to promoting slow fashion principles and supporting the livelihoods of traditional craftspeople across India.
+                At IndieBazaar, we believe that fashion should not come at the expense of people or the planet. We&apos;re committed to promoting slow fashion principles and supporting the livelihoods of traditional craftspeople across India.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                By connecting these skilled artisans directly with conscious consumers, we're helping preserve ancient techniques that might otherwise be lost to mass production, while ensuring fair compensation for their remarkable work.
+                By connecting these skilled artisans directly with conscious consumers, we&apos;re helping preserve ancient techniques that might otherwise be lost to mass production, while ensuring fair compensation for their remarkable work.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Every purchase from IndieBazaar helps sustain these traditions and supports rural communities where these crafts originate.
@@ -58,11 +58,11 @@ function AboutPage() {
               transition={{ duration: 0.5 }}
               className="rounded-xl overflow-hidden"
             >
-              <img
-                src="https://images.pexels.com/photos/2566810/pexels-photo-2566810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              <img 
+                src="https://media.istockphoto.com/id/458417619/photo/craftsman-working-on-the-loom.jpg?s=612x612&w=0&k=20&c=2v9JfzZZ--jYkuPj4Hp3iZSUItVSiwUUscsKgWgNixU="
                 alt="Artisans working on traditional textiles"
                 className="w-full h-auto"
-              />
+              /> 
             </motion.div>
           </div>
         </div>
@@ -137,7 +137,7 @@ function AboutPage() {
       </section>
       
       {/* Team Section */}
-      <section className="py-16 md:py-24">
+      {/* <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -200,7 +200,7 @@ function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       
       {/* Join Us CTA */}
       <section className="py-16 md:py-24 bg-primary-500 text-white">

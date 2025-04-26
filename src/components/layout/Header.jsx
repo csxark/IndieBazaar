@@ -74,7 +74,7 @@ function Header() {
             >
               Our Story
             </NavLink>
-            <NavLink 
+            {/* <NavLink 
               to="/sustainable" 
               className={({ isActive }) => 
                 `text-sm font-medium hover:text-primary-500 transition-colors ${
@@ -83,7 +83,7 @@ function Header() {
               }
             >
               Sustainability
-            </NavLink>
+            </NavLink> */}
           </nav>
 
           {/* Search, Cart, and User Icons */}
