@@ -99,9 +99,9 @@ function Header() {
               <FiSearch className="absolute left-3 text-gray-400" />
             </form>
 
-            <Link to="/wishlist" className="relative p-2 text-gray-700 hover:text-primary-500 transition-colors">
+            {/* <Link to="/wishlist" className="relative p-2 text-gray-700 hover:text-primary-500 transition-colors">
               <FiHeart size={20} />
-            </Link>
+            </Link> */}
 
             <Link to="/cart" className="relative p-2 text-gray-700 hover:text-primary-500 transition-colors">
               <FiShoppingBag size={20} />
